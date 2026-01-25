@@ -32,6 +32,12 @@ CLAUSE is a benchmark designed to evaluate the fragility of LLM legal reasoning 
 
 ---
 
+## Acknowledgements
+
+We are grateful to Rui Heng Foo for his invaluable assistance with the data generation pipelines. We extend our sincere thanks to Arizona State University's Lincoln Center for Applied Ethics, along with their law professors and partners, for lending their expertise to advise on our perturbation categories and to authenticate our perturbed contracts for real-world relevance. We also thank the ASU Law and Pre-Law students for volunteering their time and expertise. Finally, we acknowledge the CoRAL Lab at Arizona State University for providing the computational resources that made this research possible.
+
+---
+
 ## Repository Structure
 
 ```
@@ -89,7 +95,7 @@ Each category exists in two variants:
 ### Download Dataset
 
 ```bash
-git clone https://github.com/mannanxanand/CLAUSE-Benchmark.git
+git clone https://github.com/clause-benchmark/CLAUSE-Benchmark.git
 cd CLAUSE-Benchmark
 ```
 
@@ -125,12 +131,6 @@ If you find this work useful, please cite our paper:
     year={2026}
 }
 ```
-
----
-
-## Acknowledgements
-
-We are grateful to Rui Heng Foo for his invaluable assistance with the data generation pipelines. We extend our sincere thanks to Arizona State University's Lincoln Center for Applied Ethics, along with their law professors and partners, for lending their expertise to advise on our perturbation categories and to authenticate our perturbed contracts for real-world relevance. We also thank the ASU Law and Pre-Law students for volunteering their time and expertise. Finally, we acknowledge Arizona State University for providing the computational resources that made this research possible.
 
 ---
 
